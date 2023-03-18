@@ -27,8 +27,8 @@ const Navbar = () => {
 						alt="logo"
 						className="w-9 h-9 object-contain"
 					/>
-					<p className="text-white text-[18px] font-bold cursor-pointer">
-						Harish Lal{" "}
+					<p className="text-white text-[18px] font-bold cursor-pointer flex">
+						Harish Lal &nbsp;
 						<span className="sm:block hidden">| LalJr</span>
 					</p>
 				</Link>
