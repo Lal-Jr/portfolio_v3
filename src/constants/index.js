@@ -1,28 +1,23 @@
 import {
 	mobile,
-	backend,
-	creator,
+	camera,
 	web,
 	javascript,
-	typescript,
 	html,
 	css,
 	reactjs,
 	redux,
 	tailwind,
 	nodejs,
-	mongodb,
 	git,
-	figma,
-	docker,
-	meta,
 	starbucks,
 	tesla,
-	shopify,
 	carrent,
 	jobit,
 	tripguide,
 	threejs,
+	c,
+	python,
 } from "../assets";
 
 export const navLinks = [
@@ -51,11 +46,19 @@ const services = [
 	},
 	{
 		title: "Photographer",
-		icon: backend,
+		icon: camera,
 	},
 ];
 
 const technologies = [
+	{
+		name: "C++",
+		icon: c,
+	},
+	{
+		name: "Python",
+		icon: python,
+	},
 	{
 		name: "HTML 5",
 		icon: html,
@@ -123,33 +126,6 @@ const experiences = [
 	},
 ];
 
-const testimonials = [
-	{
-		testimonial:
-			"I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-		name: "Sara Lee",
-		designation: "CFO",
-		company: "Acme Co",
-		image: "https://randomuser.me/api/portraits/women/4.jpg",
-	},
-	{
-		testimonial:
-			"I've never met a web developer who truly cares about their clients' success like Rick does.",
-		name: "Chris Brown",
-		designation: "COO",
-		company: "DEF Corp",
-		image: "https://randomuser.me/api/portraits/men/5.jpg",
-	},
-	{
-		testimonial:
-			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-		name: "Lisa Wang",
-		designation: "CTO",
-		company: "456 Enterprises",
-		image: "https://randomuser.me/api/portraits/women/6.jpg",
-	},
-];
-
 const projects = [
 	{
 		name: "Car Rent",
@@ -171,6 +147,7 @@ const projects = [
 		],
 		image: carrent,
 		source_code_link: "https://github.com/",
+		live_link: "https://github.com/",
 	},
 	{
 		name: "Job IT",
@@ -192,6 +169,7 @@ const projects = [
 		],
 		image: jobit,
 		source_code_link: "https://github.com/",
+		live_link: "https://github.com/",
 	},
 	{
 		name: "Trip Guide",
@@ -213,6 +191,51 @@ const projects = [
 		],
 		image: tripguide,
 		source_code_link: "https://github.com/",
+		live_link: "https://google.com/",
+	},
+	{
+		name: "Trip Guide",
+		description:
+			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+		tags: [
+			{
+				name: "nextjs",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "supabase",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: tripguide,
+		source_code_link: "https://github.com/",
+		live_link: "https://google.com/",
+	},
+	{
+		name: "Trip Guide",
+		description:
+			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+		tags: [
+			{
+				name: "nextjs",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "supabase",
+				color: "green-text-gradient",
+			},
+			{
+				name: "css",
+				color: "pink-text-gradient",
+			},
+		],
+		image: tripguide,
+		source_code_link: "https://github.com/",
+		live_link: "https://google.com/",
 	},
 ];
 
