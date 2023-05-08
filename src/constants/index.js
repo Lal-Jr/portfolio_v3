@@ -10,11 +10,13 @@ import {
 	tailwind,
 	nodejs,
 	git,
-	starbucks,
-	tesla,
-	carrent,
-	jobit,
-	tripguide,
+	fiverr,
+	skillactz,
+	netflix,
+	blog,
+	jobseeker,
+	pizza,
+	crypto,
 	threejs,
 	c,
 	python,
@@ -100,59 +102,56 @@ const technologies = [
 const experiences = [
 	{
 		title: "React.js Developer",
-		company_name: "Starbucks",
-		icon: starbucks,
+		company_name: "Fiverr",
+		icon: fiverr,
 		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
+		date: "Jan 2021 - Nov 2021",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+			"Developing web applications using React.js and other related technologies.",
+			"Collaborating with cross-functional teams including designers, and other clients to create high-quality products.",
 			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
 		],
 	},
 	{
-		title: "React Native Developer",
-		company_name: "Tesla",
-		icon: tesla,
-		iconBg: "#E6DEDD",
-		date: "Jan 2021 - Feb 2022",
+		title: "GoLang Developer",
+		company_name: "SkillActz",
+		icon: skillactz,
+		iconBg: "#FFFFFF",
+		date: "Nov 2022 - Dec 2022",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"Understanding already existing codebase and migration to GoLang.",
+			"Testing efficiency and usability of newly-developed components.",
 		],
 	},
 ];
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "Netflix Clone",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"UI Clone of Netflix which enables the user to login and browse through different movies and TV series pulled from TMDB API.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
+				name: "tailwindcss",
 				color: "green-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "tmdbapi",
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
-		live_link: "https://github.com/",
+		image: netflix,
+		source_code_link: "https://github.com/Lal-Jr/Netflix-Clone",
+		live_link: "https://netflix-laljr.vercel.app/",
 	},
 	{
-		name: "Job IT",
+		name: "Blog Page",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"Web application that integrates blog posts from GraphCMS along with user-friendly commenting feature & owner review.",
 		tags: [
 			{
 				name: "react",
@@ -167,14 +166,14 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
-		live_link: "https://github.com/",
+		image: blog,
+		source_code_link: "https://github.com/Lal-Jr/GraphQL-GraphCMS-Blog",
+		live_link: "https://graph-ql-graph-cms-blog.vercel.app/",
 	},
 	{
-		name: "Trip Guide",
+		name: "Job Seeker",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"Mobile application that enables users to search for job openings, and locate available jobs based on their current location.",
 		tags: [
 			{
 				name: "nextjs",
@@ -189,14 +188,14 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
+		image: jobseeker,
+		source_code_link: "https://github.com/Lal-Jr/job_seeker",
+		live_link: "",
 	},
 	{
-		name: "Trip Guide",
+		name: "Pizza Shop",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"A comprehensive pizza ordering platform that allows users to order pizzas and offers recommendations from available menu.",
 		tags: [
 			{
 				name: "nextjs",
@@ -211,14 +210,14 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
+		image: pizza,
+		source_code_link: "https://github.com/Lal-Jr/PizzaShop-LandingPage",
+		live_link: "https://pizza-shop-landing-page.vercel.app/",
 	},
 	{
-		name: "Trip Guide",
+		name: "CryptoTracker",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"A comprehensive platform that demonstrates users the details about all the available crypto available in the market.",
 		tags: [
 			{
 				name: "nextjs",
@@ -233,9 +232,9 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
-		live_link: "https://google.com/",
+		image: crypto,
+		source_code_link: "https://github.com/Lal-Jr/Crypto-Tracker",
+		live_link: "https://crypto-tracker-omega.vercel.app/",
 	},
 ];
 

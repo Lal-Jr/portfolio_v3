@@ -20,12 +20,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import fiverr from "./company/fiverr.svg";
+import skillactz from "./company/skillactz.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import netflix from "./netflix.png";
+import blog from "./blog.png";
+import jobseeker from "./jobseeker.png";
+import pizza from "./pizza.png";
+import crypto from "./crypto.png";
 
 export {
 	logo,
@@ -48,9 +50,11 @@ export {
 	redux,
 	tailwind,
 	threejs,
-	starbucks,
-	tesla,
-	carrent,
-	jobit,
-	tripguide,
+	fiverr,
+	skillactz,
+	netflix,
+	blog,
+	jobseeker,
+	pizza,
+	crypto,
 };
